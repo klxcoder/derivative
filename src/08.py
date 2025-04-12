@@ -22,8 +22,6 @@ for i in range(50):
     dy2_db2 = 1
     dl_dw2 = dl_dy2*dy2_dw2
     dl_db2 = dl_dy2*dy2_db2
-    dy1_w1 = x
-    dy1_b1 = 1
     # calculate derivative of loss with respect to w1, b1
     dy2_dy1 = w2
     dl_dy1 = dl_dy2 * dy2_dy1
